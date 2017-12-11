@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "reader";
+  src: url(../media/Reader-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "apercu";
+  src: url(../media/Apercu_Pro_Regular.ttf);
+  font-weight: normal;
+}
+
+body {
+  font-family: "reader", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#name {
+  width: 87%;
+  height: 340px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+  font-size: 190px;
+  line-height: 200px;
+  text-align: left;
+}
+
+#menu {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+#menu-outer {
+	height: 100px;
+}
+
+.table {
+	display: table;
+  text-align: right;
+
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+
+	}
+	ul#horizontal-list li {
+		display: inline;
+    padding-right: 30px;
+    font-size: 40px;
+	}
+
+
+  video.bgvid {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      background-size: cover;
+  }
